@@ -1,3 +1,76 @@
-h1{
+h1{text-align:center;}
+h2{color :red ;}
+h3{
+	color:blue;
+}
+h4{
+	color: yellow;
+}
+span{
+	color: rgb(18,160,89);
+}
+
+.premierspan{
+	color: yellow;
+}
+
+
+#deuxiemespan{
+	color: blue;
+	font-size: 3rem;
+}
+
+#deuxiemspan{
+	color: blue;
+}
+
+.div{
+	width: 200px;
+	height:200px;
+	background-color: yellow;
+	border-radius: 50%;
+}
+
+.mam{
+	display:flex;
+	gap: 10px;
+}
+
+.div1{
+	width:100px;
+	height: 100px;
+	background-color: aqua;
+	border-radius: 10px;
+}
+.div2{
+	width:100px;
+	height: 100px;
 	background-color: blue;
+	border-radius: 10px;
+}
+.div3{
+	width:100px;
+	height: 100px;
+	background-color: violet;
+	border-radius: 10px;
+}
+.div4{
+	width:100px;
+	height: 100px;
+	background-color: magenta;
+	border-radius: 10px;
+}
+.mam2{
+	display: flex;
+	flex-direction: column;
+	gap: 75px;
+	height: 100vh;
+}
+
+.mam3{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	gap: 75px;
+	align-items: end;
 }
